@@ -25,11 +25,14 @@ public class Enemy : MonoBehaviour
 
         // 적의 최초 위치를 첫 번째 웨이포인트의 위치로 설정
         transform.position = wayPoints[currentIndex].position;
+
+        StartCoroutine(MoveCoroutine());
     }
 
     // 적의 움직임 코루틴
     private IEnumerator MoveCoroutine()
     {
+        SetDestination();
         // 움직이기 전에 방향 설정이 필요하다.
         while (true)
         {
@@ -39,11 +42,11 @@ public class Enemy : MonoBehaviour
             // 목표 지점까지의 거리가 오프셋 보다 가까워 지면 도착했다라고 쳐준다.
             if (Vector3.Distance(wayPoints[currentIndex].position, transform.position) <= offSet)
             {
-                // 다음 목적지 설정
-                SetDestination();
-
                 // 현재 위치를 목표 지점으로 초기화
                 transform.position = wayPoints[currentIndex].position;
+
+                // 다음 목적지 설정
+                SetDestination();
             }
             yield return null;
         }
