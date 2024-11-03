@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Monster
+  - Ball
+  - Ground
+  - ControlBox
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Enviroment
+  - Water
+  - UI
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enviroment
+    uniqueID: 3446884109
+    locked: 0
+  - name: Player
+    uniqueID: 688645329
+    locked: 0
+  - name: Monster
+    uniqueID: 2550361127
+    locked: 0
+  - name: Obstacles
+    uniqueID: 4144769195
+    locked: 0
+  - name: Bullet
+    uniqueID: 2391331709
+    locked: 0
+  - name: Effect
+    uniqueID: 3359925463
+    locked: 0
