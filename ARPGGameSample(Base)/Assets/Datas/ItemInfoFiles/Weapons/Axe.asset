@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27b706b64dfce44d9b0b17a08d9d377, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  iTEM_TYPE: 0
+  itemId: 1001
+  itemName: Axe
+  itemDescription: "\"\uB3C4\uB07C \uC544\uC774\uD15C \uC785\uB2C8\uB2E4.\""
+  itemIconImage: {fileID: 21300000, guid: 172774604c1bee84185a69041576525b, type: 3}
+  itemPrice: 5000
+  itemCount: 0
+  isEquip: 0
+  wpType: 1
+  attackSpeed: 4
+  damage: 10
+  equipParentTag: RightHandle
+  wpPrefab: {fileID: 0}
